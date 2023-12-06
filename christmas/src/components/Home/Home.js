@@ -5,17 +5,6 @@ export const Home = () => {
 const navigate = useNavigate();
 const redirectToPage = (input) => {
     navigate(`/${input}`);
-    const dynamicParams = {
-      firstPage: {
-        dayNumber: 1,
-        germanWord: "Das Kletzenbrot - Плодов Хляб",
-        facts: "Das Kletzenbrot ist ein saftiges, dunkelbraunes, würzig-süßes"+
-        "Brot, bei dem Kletzen oder Hutzeln, und gewürz mit dem Brotteig vermischt werden",
-        audioUrl: "/first-page.mp3",
-        imageUrl: "https://thehill.com/wp-content/uploads/sites/2/2022/12/CA_christmas_12152022istock.jpg"
-      }
-
-    }
   };
   return (
     <div id="container">
