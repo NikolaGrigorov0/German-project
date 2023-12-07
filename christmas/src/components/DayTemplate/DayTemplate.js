@@ -40,7 +40,7 @@ export const DayPage = ({params}) => {
         {germanWord}
       </h1>
       <div className="flex items-center justify-center">
-        <button className="bg-transparent shadow-md border-solid border-2 border-gray-500 sm:text-sm md:text-base lg:text-2xl hover:bg-gray-600" onClick={handleButtonClick}>
+        <button className="bg-transparent shadow-md border-solid border-2 border-gray-500 sm:text-sm md:text-base m-5 lg:text-2xl hover:bg-gray-600" onClick={handleButtonClick}>
           {isPlaying ? '🔊' : '🔈'}
         </button>
         <audio ref={audioRef} src={audio} type="audio/mp3" className="hidden md:block" />

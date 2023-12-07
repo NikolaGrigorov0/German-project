@@ -21,7 +21,7 @@ const redirectToPage = (input) => {
         <div class="day-1">
           <label>
             <div class="door">
-              <div onClick={() => redirectToPage('first')} class="front">1</div>
+              <div onClick={() => redirectToPage('firstPage')} class="front">1</div>
               <div class="back"></div>
             </div>
           </label>
@@ -29,7 +29,7 @@ const redirectToPage = (input) => {
         <div class="day-2">
           <label>
             <div class="door">
-              <div onClick={() => redirectToPage('second')} class="front">2</div>
+              <div onClick={() => redirectToPage('secondPage')} class="front">2</div>
               <div class="back"></div>
             </div>
           </label>
@@ -37,7 +37,7 @@ const redirectToPage = (input) => {
         <div class="day-3">
           <label>
             <div class="door">
-              <div onClick={() => redirectToPage('third')} class="front">3</div>
+              <div onClick={() => redirectToPage('thirdPage')} class="front">3</div>
               <div class="back"></div>
             </div>
           </label>
@@ -45,14 +45,14 @@ const redirectToPage = (input) => {
         <div class="day-4">
           <label>
             <div class="door">
-              <div onClick={() => redirectToPage('fourth')} class="front">4</div>
+              <div onClick={() => redirectToPage('fourthPage')} class="front">4</div>
               <div class="back"></div>
             </div>
           </label>
         </div>
         <div class="day-5">
           <label>
-            <div onClick={() => redirectToPage('fifth')} class="door">
+            <div onClick={() => redirectToPage('fifthPage')} class="door">
               <div class="front">5</div>
               <div class="back"></div>
             </div>
@@ -60,7 +60,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-6">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('sixthPage')} class="door">
               <div class="front">6</div>
               <div class="back"></div>
             </div>
@@ -68,7 +68,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-7">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('seventhPage')} class="door">
               <div class="front">7</div>
               <div class="back"></div>
             </div>
@@ -76,7 +76,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-8">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('eighthPage')} class="door">
               <div class="front">8</div>
               <div class="back"></div>
             </div>
@@ -84,7 +84,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-9">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('ninthPage')} class="door">
               <div class="front">9</div>
               <div class="back"></div>
             </div>
@@ -92,7 +92,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-10">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('tenthPage')} class="door">
               <div class="front">10</div>
               <div class="back"></div>
             </div>
@@ -100,7 +100,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-11">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('eleventhPage')} class="door">
               <div class="front">11</div>
               <div class="back"></div>
             </div>
@@ -108,7 +108,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-12">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('twelfthPage')} class="door">
               <div class="front">12</div>
               <div class="back"></div>
             </div>
@@ -116,7 +116,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-13">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('thirteenthPage')} class="door">
               <div class="front">13</div>
               <div class="back"></div>
             </div>
@@ -124,7 +124,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-14">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('fourteenthPage')} class="door">
               <div class="front">14</div>
               <div class="back"></div>
             </div>
@@ -132,7 +132,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-15">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('fifteenthPage')} class="door">
               <div class="front">15</div>
               <div class="back"></div>
             </div>
@@ -140,7 +140,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-16">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('sixteenthPage')} class="door">
               <div class="front">16</div>
               <div class="back"></div>
             </div>
@@ -148,7 +148,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-17">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('seventeenthPage')} class="door">
               <div class="front">17</div>
               <div class="back"></div>
             </div>
@@ -156,7 +156,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-18">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('eighteenthPage')} class="door">
               <div class="front">18</div>
               <div class="back"></div>
             </div>
@@ -164,7 +164,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-19">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('nineteenthPage')} class="door">
               <div class="front">19</div>
               <div class="back"></div>
             </div>
@@ -172,7 +172,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-20">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('twentiethPage')} class="door">
               <div class="front">20</div>
               <div class="back"></div>
             </div>
@@ -180,7 +180,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-21">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('twentyfirstPage')} class="door">
               <div class="front">21</div>
               <div class="back"></div>
             </div>
@@ -188,7 +188,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-22">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('twentysecondPage')} class="door">
               <div class="front">22</div>
               <div class="back"></div>
             </div>
@@ -196,7 +196,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-23">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('twentythirdPage')} class="door">
               <div class="front">23</div>
               <div class="back"></div>
             </div>
@@ -204,7 +204,7 @@ const redirectToPage = (input) => {
         </div>
         <div class="day-24">
           <label>
-            <div class="door">
+            <div onClick={() => redirectToPage('twentyfourthPage')} class="door">
               <div class="front">24</div>
               <div class="back"></div>
             </div>
